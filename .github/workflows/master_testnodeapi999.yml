@@ -6,7 +6,7 @@ name: Build and deploy Node.js app to Azure Web App - testnodeapi999
 on:
   push:
     branches:
-      - master
+      - test
   workflow_dispatch:
 
 jobs:
